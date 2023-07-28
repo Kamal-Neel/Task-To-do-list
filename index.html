@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-DO LIST</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <h1>To-Do List <i class='bx bx-book-bookmark' style='color:#f5ec34'  ></i></h1>
+        <div class="input-container">
+            <input type="text" id="newTask" placeholder="Enter your task...">
+            <button onclick="addTask()"><i class='bx bxs-plus-circle bx-tada' ></i></i></button>
+        </div>
+        <ul id="taskList"></ul>
+        <button onclick="deleteAllTasks()">Clear All Tasks</button>
+    </div>
+    <footer>
+        
+
+            Copyright &copy 2023- Neel Kamal. All Rights Reserved
+       
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
